@@ -1,11 +1,23 @@
+head{
+    height: auto;
+}
 body {
+
     background-color: #dee4bfe5;
     font-family: Arial, sans-serif;
+    position: fixed;
+    width: 80%;
+
+
 }
+
 header {
+    background-color: white; 
+    position: relative; 
     text-align: center;
-    color: rgb(0, 68, 255);
-    font-size:larger;
+}
+.Informacion{
+    text-align: center;
 }
 section{
     text-align: center;
@@ -38,3 +50,54 @@ footer{
     border-radius: 5px;
     background-color: darkgreen;
 }
+.CONTACTO {
+        position: fixed;
+        top: 20%;
+        right: 0;
+        width: 18%;
+        height: 200px;
+        background-color: grey;
+        text-align: center;
+
+}
+.Direccion{
+    position:fixed;
+    top: 70%;
+    right: 0;
+    width: 18%;
+    height: 150px;;
+    background-color:grey;
+    text-align: justify;
+}
+
+/**{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/
+
+div > p {
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+p>h6{
+    color: bisque;
+    font-size: 20px;
+}
+
+
+/*div li{
+    color: gold;
+    font-size: 30px;
+}*/
+
+.flexstyle{
+    border-color: blue;
+    border-width: 8px;
+    border-style: double;
+    display: flex;
+    justify-content: space-between;
+
+}
+
