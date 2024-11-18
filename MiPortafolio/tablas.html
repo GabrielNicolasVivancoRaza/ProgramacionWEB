@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tablas</title>
+        <link rel="stylesheet" href="tablasbg.css">
+    </head>
+    <body>
+        <header>
+            <h1>Tablas</h1>
+            <p>Uso de la etiqueta table, es para el envio y recepcion de la informacion</p>
+        </header>
+        <section>
+           <!-- <article>
+                <table frame="vsides" rules="rows" border="3px" cellpadding="10px" cellspacing="0px">
+                    <caption align="bottom">LISTAS DE ESTUDIANTES</caption>
+                    <colgroup>
+                        <col style="background-color: brown;" >
+                        <col  style="background-color: chartreuse;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                           <th colspan="2" align="center" width="300px">Nombres</th>
+
+                            <th>Nombres</th>
+                            <th>Apellidos</th>
+                            <th>Direccion</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td rowspan="4">Gabriel</td>
+                            <td >Vivanco</td>
+                            <td rowspan="4">Urb La Catolica</td>
+                        </tr>
+                        <tr>
+                            <td>Urb La Catolica</td>
+                        </tr>
+                        <tr>
+
+                            <td>Urb La Catolica</td>
+                        </tr>
+                        <tr>
+                            <td>Urb La Catolica</td>
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                            <td>sum</td>
+                            <td>sum</td>
+                            <td>sum</td>
+
+                    </tfoot>
+                </table>
+            </article>-->
+            <article>
+                <form action="submit" method="post">
+                    <label>Nombres: </label>
+                    <input type="text" minlength="4" maxlength="20" id="txtNombres" placeholder="nombres">
+                    <br>
+                    <label>Apellidos: </label>
+                    <input type="text" id="txtApellidos" placeholder="apellidos">
+                    <br>
+                    <label>Contrasenia: </label>
+                    <input type="password" minlength="2" maxlength="5" id="txtContrasenia" placeholder="password">
+                    <br>
+                    <label>Tipo de persona: </label>
+                    <select>
+                        <option>Estudiante</option>
+                        <option>Maestro</option>
+                        <option>Administrativo</option>
+                    </select>
+                    <br>
+                    <textarea name="taObservacion">
+                        Asegurar de enviar toda la informacion de manera correcta, llenando los 2 nombres y 2 apellidos, una contrasenia unica
+                    </textarea>
+                    <br><br>
+                    <input type="submit" value="Enviar Datos">
+                </form>
+            </article>
+        </section>
+    </body>
+</html>
