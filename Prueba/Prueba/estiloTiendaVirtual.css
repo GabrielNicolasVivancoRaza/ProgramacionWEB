@@ -1,0 +1,170 @@
+head{
+    height: auto;
+}
+body {
+    background-color: #dee4bfe5;
+    font-family: Arial, sans-serif;
+    position:relative; 
+    margin-left: 18%; 
+}
+aside {
+    position: fixed;
+    width: 18%;
+    height: 100%;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+.Informacion{
+    text-align: center;
+}
+section {
+    text-align: center; 
+    margin: 20px auto;
+    display: block; 
+    justify-content: center;
+}
+footer {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+.per{
+    width: 200;
+    height: 200;
+    border-radius: 150px;
+}
+
+.spanuso{
+    color: rgb(0, 4, 255);
+    font-size: 20px;
+    font-style: italic;
+}
+
+.boton{
+    color:darkcyan;
+    background-color: chocolate;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#botonbuscar{
+    color: yellowgreen;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: darkgreen;
+}
+.CONTACTO {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 18%;
+        height: 700px;
+        background-color: grey;
+        text-align: center;
+
+}
+
+.flexstyle{
+
+    display:flex;
+    justify-content: space-between;
+
+
+}
+
+footer{
+    background-color: green;
+}
+
+.verTablas{
+    background-color: black;
+    color: white;
+}
+
+.RopaUno{
+    border-color: beige;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 30px;
+    justify-content:center;
+    background-color: beige;
+    display:inline-block; 
+    width: 250px;
+    height: 280px;
+}
+.RopaDos{
+    border-color: beige;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 30px;
+    justify-content:center;
+    background-color: beige;
+    display:inline-block; 
+    width: 250px;
+    height: 280px;
+}
+.TecUno{
+    border-color: beige;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 30px;
+    justify-content:center;
+    background-color: beige;
+    display:inline-block; 
+    width: 250px;
+    height: 280px;
+}
+.TecDos{
+    border-color: beige;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 30px;
+    justify-content:center;
+    background-color: beige;
+    display:inline-block; 
+    width: 250px;
+    height: 280px;
+}
+
+.ZapUno{
+    border-color: beige;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 30px;
+    justify-content:center;
+    display:inline-block; 
+    background-color: beige;
+    width: 250px;
+    height: 280px;
+}
+
+.ZapDos{
+    border-color: beige;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 30px;
+    justify-content:center;
+    display:inline-block; 
+    background-color: beige;
+    width: 250px;
+    height: 280px;
+}
+button{
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(131, 212, 162);
+    border-color: transparent;
+}
+.Ayuda {
+    right: 0;
+    top: 120px;
+    height: 300px;
+}

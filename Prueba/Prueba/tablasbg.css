@@ -1,0 +1,59 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    background: rgb(136,207,96);
+background: linear-gradient(90deg, rgba(136,207,96,1) 28%, rgba(99,185,203,0.9248074229691877) 64%, rgba(152,152,205,1) 100%);
+}
+
+header{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,34,196,1) 12%, rgba(6,5,80,1) 18%, rgba(9,9,121,1) 35%, rgba(62,125,226,1) 53%, rgba(0,212,255,1) 100%);
+}
+
+caption{
+    background-color: cyan;
+}
+
+td{
+    text-align: center;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    border:0px;
+    border-radius: 0px;
+    color: aquamarine;
+}
+input[type="password"]{
+    background-color: rgb(195, 219, 167);
+    border-bottom: 1px solid #000;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+input{
+    border-radius: 10px;
+    border: 0px;
+    outline: none;
+}
+
+input[type="text"]::placeholder{
+    text-align: end;
+    color: red;
+} 
+
+input[type="password"]::placeholder{
+    text-align: end;
+    color: violet;
+}
+#txtNombres::placeholder{
+    text-align: end;
+    color: violet;
+    font-size: 15px;
+}
+
+
+ /* ::placeholder{ pseudoclases o elementos 
+    text-align: end;
+    color: red;
+} */
