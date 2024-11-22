@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(228, 174, 230);
+    height: 100%;
+}
+
+.card{
+    box-shadow: #000000 0px 0px 50px;
+    margin: auto;
+    margin-top: 50px;
+    height: 700px;
+    color: #ddd;
+    width:500px; 
+    background-color: rgb(128, 170, 123);
+}
+
+.card-header{
+    height: 350px;
+    background-image: url(https://placehold.jp/b3e6e0/ffffff/500x500.png);
+}
+
+h4{
+    color: black
+}
+
+.card-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 40px;
+}
+.size{
+    margin-top: 50px;
+}
+
+.color{
+    margin-top: 40px;
+}
+.red{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    color: red;
+    width: 10px;
+    height: 10px;
+}
+.blue{
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 50%;
+    color: blue;
+    width: 10px;
+    height: 10px;
+}
+
+.white{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+.green{
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 50%;
+    color: green;
+    width: 10px;
+    height: 10px;
+}
