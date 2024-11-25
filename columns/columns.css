@@ -1,0 +1,20 @@
+#noticias{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: justify;
+
+    /*Creacion de columnas para el elemento article*/
+    column-count: 4;
+    column-gap: 20px;
+    column-rule-style: dotted;
+    column-rule-color: red;
+    column-rule-width: 10px;
+
+    /*TODAS LAS REGLAS EN UNA SOLA LINEA*/
+    column-rule: 1px solid red;
+
+    
+
+
+}

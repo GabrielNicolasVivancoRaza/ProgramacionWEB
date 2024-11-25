@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.container{
+    display: flex; /*ayuda que todos los eleentos dentro del contenedor son flexibles se aplique*/
+    border: 1px solid blue;
+    height: 500px;
+    width: 40%;
+}
+
+.container div{
+    height: 50px;
+}
+
+.item-1{
+    flex: 1 1 100px;
+    background-color: red;
+}
+
+/*DETALLES DE LOS VALORES DE FLEX*/
+/*
+flex: 1 1 100px; => corresponde a los 3 de abjo 
+flex-grow: 1; => de todo el espacio disponible ocupe solo uno 
+flex-shrink: 1; => cuanto se reduce el elemento con respecto al espacio disponible
+flex-basis:100px; => tamano inicial, antes que crezca o se aplique grow y shrink 
+*/
+
+.item-2{
+    flex: 1 1 200px; /*si ponemos 0 no cambia el tamano, y al poner 00 va a mantener el valor especifico de 100, y es la unica forma de que se mantenga con respecto al encoger la pagina */
+    background-color: green; 
+}
+
+.item-3{
+    flex: 1 1 100px;
+    background-color: chocolate; 
+}
+
+.item-4{
+    flex: 1 1 100px;
+    background-color: yellow; 
+}
