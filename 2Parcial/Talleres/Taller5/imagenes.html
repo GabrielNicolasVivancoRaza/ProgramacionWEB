@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .titles {
+            color: magenta;
+        }
+        #imagenPrincipal {
+            max-width: 300px;
+            max-height: 200px;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+    <title>animacion imagenes</title>
+</head>
+<body>
+    <h1 id="titulo" class="titles">Animacion de Imagenes</h1>
+    <img id="imagenPrincipal" src="file-20240603-17-pm5xiq.avif" alt="imagen">
+    <button onclick="cambiarImagen()" type="button">Cambiar Imagen</button>
+    <script>
+        const imagenes = [
+            "file-20240603-17-pm5xiq.avif",
+            "logo-Real-Madrid.png",
+            "ND_LIGA_RM_OSASUNA_ALEGRIA_GRUPO_07_2VC8321.webp",
+            "ND_SUPERCOPA_EUROPA_ONCE_AV25507.webp",
+            "News-story-template-8-1.jpg"
+        ];
+        
+        const imagenPrincipal = document.getElementById("imagenPrincipal");
+
+        function cambiarImagen() {
+            for (let i = 0; i < imagenes.length; i++) {
+                setTimeout(() => {
+                    imagenPrincipal.src = imagenes[i];
+                }, i * 2000); 
+            }
+        }
+    </script>
+</body>
+</html>
