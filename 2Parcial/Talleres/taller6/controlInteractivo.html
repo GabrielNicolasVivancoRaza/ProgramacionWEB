@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Interactivo</title>
+    <style>
+        #panelDeConfiguracion {
+            background-color: aqua;
+            height: 150px;
+            width: 150px;
+       }
+    </style>
+</head>
+<body onload="entrar()">
+    <h1 id="titulo">Panel de Control Interactivo</h1>
+    <div id="panelDeConfiguracion">
+        <h3>Panel de Configuración</h3>
+        <label for="tema">Tema:</label>
+        <select id="tema">
+            <option value="white">Claro</option>
+            <option value="black">Oscuro</option>
+            <option value="blue">Azul</option>
+        </select>
+        <br><br>
+        <label for="nuevoTitulo">Título:</label>
+        <input type="text" id="nuevoTitulo">
+        <br><br>
+        <label for="habilitarComentarios">
+            <input type="checkbox" id="habilitarComentarios"> Comentarios
+        </label>
+        <br><br>
+        <textarea id="comentarios" disabled placeholder="Escribe un comentario aquí"></textarea>
+    </div>
+    <button type="button" id="btnMostrar" onclick="cambiar()">Mostrar Panel</button>
+    <br><br>
+    <h3>Lista de Elementos</h3>
+    <ul id="lista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ul>
+    <input type="text" id="nuevoElemento">
+    <button type="button" id="btnAgregar">Agregar</button>
+
+    <script>
+        function cambiar() {
+            const panel = document.getElementById('panelDeConfiguracion');
+            const btnMostrar = document.getElementById('btnMostrar');
+            if (panel.style.display === 'none') {
+                panel.style.display = 'block';
+                btnMostrar.innerHTML = 'Ocultar Panel';
+            } else {
+                panel.style.display = 'none';
+                btnMostrar.innerHTML = 'Mostrar Panel';
+            }
+        }
+
+        document.getElementById('tema').addEventListener('change', function () {
+            document.body.style.backgroundColor = this.value;
+        });
+
+        function entrar() {
+            let texto = '';
+            if(navigator.cookieEnabled){
+                texto = 'Cookies habilitadas';
+            } else { 
+                texto = 'Cookies inhabilitadas';
+            }
+        }
+
+    </script>
+</body>
+</html>
